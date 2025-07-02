@@ -1,8 +1,7 @@
-@font-face {
-  font-family: 'Beiruti';
-  src: url('Beiruti.woff2') format('woff2'),
-       url('Beiruti.woff') format('woff'),
-       url('Beiruti.ttf') format('truetype');
-  font-weight: normal;
+
+.beiruti-<uniquifier> {
+  font-family: "Beiruti", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
